@@ -1,0 +1,75 @@
+RangeIndex: 284807 entries, 0 to 284806
+Data columns (total 31 columns):
+ #   Column  Non-Null Count   Dtype  
+---  ------  --------------   -----  
+ 0   Time    284807 non-null  float64
+ 1   V1      284807 non-null  float64
+ 2   V2      284807 non-null  float64
+ 3   V3      284807 non-null  float64
+ 4   V4      284807 non-null  float64
+ 5   V5      284807 non-null  float64
+ 6   V6      284807 non-null  float64
+ 7   V7      284807 non-null  float64
+ 8   V8      284807 non-null  float64
+ 9   V9      284807 non-null  float64
+ 10  V10     284807 non-null  float64
+ 11  V11     284807 non-null  float64
+ 12  V12     284807 non-null  float64
+ 13  V13     284807 non-null  float64
+ 14  V14     284807 non-null  float64
+ 15  V15     284807 non-null  float64
+ 16  V16     284807 non-null  float64
+ 17  V17     284807 non-null  float64
+ 18  V18     284807 non-null  float64
+ 19  V19     284807 non-null  float64
+ 20  V20     284807 non-null  float64
+ 21  V21     284807 non-null  float64
+ 22  V22     284807 non-null  float64
+ 23  V23     284807 non-null  float64
+ 24  V24     284807 non-null  float64
+ 25  V25     284807 non-null  float64
+ 26  V26     284807 non-null  float64
+ 27  V27     284807 non-null  float64
+ 28  V28     284807 non-null  float64
+ 29  Amount  284807 non-null  float64
+ 30  Class   284807 non-null  int64  
+dtypes: float64(30), int64(1)
+memory usage: 67.4 MB
+(284315, 31)
+(492, 31)
+            Time        V1        V2        V3  ...       V26       V27       V28  Amount
+104776   69224.0  1.203321  0.210589  0.864875  ...  0.190736  0.035827  0.023245   16.73
+64636    51239.0 -1.634235  0.358171  0.654021  ...  0.673785  0.104071  0.004687  120.10
+201317  133833.0  2.082824 -0.911582 -0.853166  ... -0.333062  0.023387 -0.035517   39.90
+82500    59427.0 -1.070547  0.835205  1.044322  ...  0.218805 -1.069376 -0.619498   24.00
+267263  162696.0  2.124650  0.050539 -1.579491  ... -0.070706 -0.014528 -0.063848    0.89
+...          ...       ...       ...       ...  ...       ...       ...       ...     ...
+279863  169142.0 -1.927883  1.125653 -4.518331  ...  0.788395  0.292680  0.147968  390.00
+280143  169347.0  1.378559  1.289381 -5.004247  ...  0.739467  0.389152  0.186637    0.76
+280149  169351.0 -0.676143  1.126366 -2.213700  ...  0.471111  0.385107  0.194361   77.89
+281144  169966.0 -3.113832  0.585864 -5.399730  ...  0.606116  0.884876 -0.253700  245.00
+281674  170348.0  1.991976  0.158476 -2.583441  ... -0.289617  0.002988 -0.015309   42.53
+
+[984 rows x 30 columns]
+104776    0
+64636     0
+201317    0
+82500     0
+267263    0
+         ..
+279863    1
+280143    1
+280149    1
+281144    1
+281674    1
+Name: Class, Length: 984, dtype: int64
+(984, 30) (787, 30) (197, 30)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result
+Accuracy on Training Data:  0.9479034307496823
