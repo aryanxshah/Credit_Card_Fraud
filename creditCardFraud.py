@@ -64,3 +64,8 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
 X_train_prediction = model.predict(X_train)
 training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 print('Accuracy on Training Data: ', training_data_accuracy)
+
+#test data accuracy
+X_test_prediction = model.predict(X_test)
+test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
+print('Accuracy on Training Data: ', test_data_accuracy)
