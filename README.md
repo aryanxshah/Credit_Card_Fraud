@@ -3,6 +3,8 @@ Credit Card Fraud Detection Project
 Overview
 
 This project aims to build a machine learning model to detect fraudulent credit card transactions using logistic regression. The dataset used for this project is a real-world dataset containing transactions made by European cardholders in September 2013. I got this dataset from Kaggle datasets and it is highly imbalanced, with only a small fraction of the transactions being fraudulent.
+
+
 Dataset
 
 Source: The dataset is available on Kaggle and contains 284,807 transactions.
